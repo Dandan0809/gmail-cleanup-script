@@ -79,3 +79,17 @@ This allows gradual cleanup without exceeding daily Gmail quotas.
 - You must manually empty Trash to permanently remove emails.
 - Gmail enforces daily quotas. If you see:
 
+
+---
+
+## Limitations
+
+- Google Apps Script execution limit (~6 minutes per run)
+- Gmail daily service quotas apply
+- Operates on Gmail threads (not individual messages)
+
+---
+
+## Disclaimer
+
+Use with caution. Always verify your search query before running large deletions.
